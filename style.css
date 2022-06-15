@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: paleturquoise;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+h2{
+    font-family:Big shoulders display ;
+    padding: 1em;
+    
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+
+#first{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 2em;
+    height: 55vh;
+    border-radius: 5px;
+}
+#second{
+    background-color:hsl(184, 100%, 22%);
+    padding: 2em;
+    height: 55vh;
+}
+#third{
+    background-color:hsl(179, 100%, 13%) ;
+    padding: 2em;
+    height: 55vh;
+    border-radius: 5px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75) ;
+    font-size: 15px;
+    font-family: Lexend Deca;
+}
+h2, button,body{
+    color:hsl(0, 0%, 95%);
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin:0 auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.btna{
+    margin-top:50px;
+    margin-bottom: 40px;
+    height: 50px;
+    width:150px;
+    border-radius: 70px;
+    background-color: white;
+    color:hsl(31, 77%, 52%);
+    border: none;
+    cursor: pointer;
+}
+.btna:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:white;
+    border: 1px solid white;
+}
+.btnb{
+    margin-top:70px;
+    height: 50px;
+    width:150px;
+    border-radius: 70px;
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    border-color: white;
+    cursor: pointer;
+}
+.btnb:hover{
+    background-color:  hsl(184, 100%, 22%);
+    color:white;
+    border: 1px solid white;
+}
+.btnc{
+    margin-top:50px;
+    height: 50px;
+    width:150px;
+    border-radius: 70px;
+    background-color: white;
+    color:hsl(179, 100%, 13%) ;
+    border-color: white;
+    cursor: pointer;
+}
+    
+.btnc:hover {
+    background-color: hsl(179, 100%, 13%) ;
+    color:white;
+    border: 1px solid white;
+}
+@media  screen and (max-width: 600px) {
+    #flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        margin:0 auto;
+        padding-top: 150px;
+}
+.btnb{
+    margin-top:50px;
+    height: 50px;
+    width:150px;
+    border-radius: 70px;
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    border-color: white;
+    cursor: pointer;
+}
+#first{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 2em;
+    height: 70vh;
+    border-radius: 5px;
+}
+#second{
+    background-color:hsl(184, 100%, 22%);
+    padding: 2em;
+    height: 70vh;
+}
+#third{
+    background-color:hsl(179, 100%, 13%) ;
+    padding: 2em;
+    height: 70vh;
+    border-radius: 5px;
+}
+}
+@media  screen and (max-width: 992px) {
+    #flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        margin:0 auto;
+        padding-top: 150px;
+}
+.btnb{
+    margin-top:50px;
+    height: 50px;
+    width:150px;
+    border-radius: 70px;
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    border-color: white;
+    cursor: pointer;
+}
+}
