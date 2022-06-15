@@ -133,19 +133,19 @@ h2, button,body{
 #first{
     background-color:hsl(31, 77%, 52%) ;
     padding: 2em;
-    height: 70vh;
-    border-radius: 5px;
+    height: 60vh;
+    border-radius: 5px 0px 5px 0px;
 }
 #second{
     background-color:hsl(184, 100%, 22%);
     padding: 2em;
-    height: 70vh;
+    height: 60vh;
 }
 #third{
     background-color:hsl(179, 100%, 13%) ;
     padding: 2em;
-    height: 70vh;
-    border-radius: 5px;
+    height: 60vh;
+    border-radius: 0px 5px 0px 5px ;
 }
 }
 @media  screen and (max-width: 992px) {
